@@ -97,20 +97,20 @@
   --_animspeed-medium: 0.3s;
   --_animspeed-slow: 0.6s;
   --_animbezier: cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  --base--light: #faf7f6;
-  --base-rgb--light: 250, 247, 246;
-  --base-tint--light: #ffffff;
-  --base-shade--light: #e0dddb;
-  --base-opp--light: #161616;
-  --base-opp-tint--light: #1c1c1c;
-  --accent--light: #9f8be7;
-  --accent-rgb--light: 159, 139, 231;
-  --additional--light: #ddf160;
-  --additional-rgb--light: 221, 241, 96;
+  --base--light: #F6F1EC;              /* Soft Pearl / Ivory */
+  --base-rgb--light: 246, 241, 236;
+  --base-tint--light: #FFFFFF;
+  --base-shade--light: #DADCDD;
+  --base-opp--light: #202020;
+  --base-opp-tint--light: #202020;
+  --accent--light: #5E1E2B;            /* Wine (less red than Crimson) */
+  --accent-rgb--light: 74, 30, 43;
+  --additional--light: #C8A98E;        /* Warm Sand */
+  --additional-rgb--light: 200, 169, 142;
   --neutral-transparent--light: rgba(255, 255, 255, 0.3);
-  --st-bright--light: #161616;
-  --st-medium--light: #7c7c7c;
-  --st-muted--light: #e0dddb;
+  --st-bright--light: #202020; /*Obsidian*/
+  --st-medium--light: #9C9D9B;
+  --st-muted--light: #e8e9ea;
   --st-opp-bright--light: #ffffff;
   --fw-regular--light: 400;
   --fw-medium--light: 600;
@@ -118,10 +118,10 @@
   --fw-bold--light: 800;
   --fw-regular-opp--light: 300;
   --fw-medium-opp--light: 500;
-  --t-bright--light: #161616;
-  --t-medium--light: #303030;
+  --t-bright--light: #202020;
+  --t-medium--light: #2B2B2B;
   --t-muted--light: #585858;
-  --t-muted-extra--light: #b2aead;
+  --t-muted-extra--light: #9c9d9b;
   --t-opp-bright--light: #ffffff;
   --t-opp-medium--light: #acacac;
   --t-opp-muted--light: #838383;
@@ -134,20 +134,20 @@
   --bg-demo-screen-07--light: url(/img/demo/screens/07.webp);
   --bg-demo-screen-08--light: url(/img/demo/screens/08.webp);
   --bg-demo-screen-09--light: url(/img/demo/screens/09.webp);
-  --base--dark: #161616;
-  --base-rgb--dark: 22, 22, 22;
-  --base-tint--dark: #1c1c1c;
-  --base-shade--dark: #0a0a0a;
-  --base-opp--dark: #faf7f6;
-  --base-opp-tint--dark: #ffffff;
-  --accent--dark: #ddf160;
-  --accent-rgb--dark: 221, 241, 96;
-  --additional--dark: #9f8be7;
-  --additional-rgb--dark: 159, 139, 231;
+  --base--dark: #202020;
+  --base-rgb--dark: 32, 32, 32;
+  --base-tint--dark: #262626;
+  --base-shade--dark: #161616;
+  --base-opp--dark: #F6F1EC;
+  --base-opp-tint--dark: #faf7f6;
+  --accent--dark: #C8A98E;             /* Warm Sand pops on dark */
+  --accent-rgb--dark: 200, 169, 142;
+  --additional--dark: #4A1E2B;         /* Wine details */
+  --additional-rgb--dark: 74, 30, 43;
   --neutral-transparent--dark: rgba(0, 0, 0, 0.3);
-  --st-bright--dark: #ffffff;
-  --st-medium--dark: #646464;
-  --st-muted--dark: #252525;
+  --st-bright--dark: #dadcdd;
+  --st-medium--dark: #bfc1c1;
+  --st-muted--dark: #9c9d9b;
   --st-opp-bright--dark: #0f0f0f;
   --fw-regular--dark: 300;
   --fw-medium--dark: 500;
@@ -155,10 +155,10 @@
   --fw-bold--dark: 700;
   --fw-regular-opp--dark: 400;
   --fw-medium-opp--dark: 600;
-  --t-bright--dark: #ffffff;
-  --t-medium--dark: #acacac;
-  --t-muted--dark: #838383;
-  --t-muted-extra--dark: #535151;
+  --t-bright--dark: #F6F1EC;
+  --t-medium--dark: #bfc1c1;
+  --t-muted--dark: #9C9D9B;
+  --t-muted-extra--dark: #7e7f7d;
   --t-opp-bright--dark: #161616;
   --t-opp-medium--dark: #303030;
   --t-opp-muted--dark: #969696;
@@ -177,8 +177,8 @@
   --pt-t-dark-bright: #161616;
   --pt-st-light-bright: #ffffff;
   --pt-st-dark-bright: #161616;
-  --pt-purple-rgb: 159, 139, 231;
-  --pt-purple-dark-rgb: 33, 10, 113;
+  --pt-purple-rgb: 94, 30, 43;
+  --pt-purple-dark-rgb: 32, 32, 32;
   --nl-white: #ffffff;
   --nl-black: #000000;
 }
